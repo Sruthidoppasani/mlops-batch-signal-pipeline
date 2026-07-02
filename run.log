@@ -1,0 +1,15 @@
+2026-07-02 11:34:39,803 | INFO | ============================================================
+2026-07-02 11:34:39,803 | INFO | Job Started
+2026-07-02 11:34:39,810 | INFO | Configuration Loaded Successfully
+2026-07-02 11:34:39,811 | INFO | Seed    : 42
+2026-07-02 11:34:39,811 | INFO | Window  : 5
+2026-07-02 11:34:39,812 | INFO | Version : v1
+2026-07-02 11:34:39,868 | INFO | Rows Loaded : 10000
+2026-07-02 11:34:39,869 | INFO | Columns : ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-07-02 11:34:39,906 | INFO | Starting rolling mean calculation...
+2026-07-02 11:34:39,945 | INFO | Rolling mean completed.
+2026-07-02 11:34:39,946 | INFO | Generating trading signals...
+2026-07-02 11:34:39,948 | INFO | Signal generation completed.
+2026-07-02 11:34:39,949 | INFO | Metrics: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4989, 'latency_ms': 151, 'seed': 42, 'status': 'success'}
+2026-07-02 11:34:39,957 | INFO | Metrics saved to metrics.json
+2026-07-02 11:34:39,958 | INFO | Job Finished Successfully
